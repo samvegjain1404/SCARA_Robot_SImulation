@@ -3,6 +3,8 @@
 A complete SCARA robot simulation built from scratch in MATLAB, implementing 
 forward/inverse kinematics, PID closed-loop control, trajectory planning, 
 and real-time 3D animation.
+   ## Demo
+![SCARA Animation](scara_animation.gif)
 
 ## Features
 - Forward Kinematics (FK) — end-effector position from joint angles
@@ -46,7 +48,3 @@ The simulation performs a 4-point pick & place cycle:
 2. IK solves joint angles for each target
 3. PID drives each joint to the target with minimal error
 4. Real-time animation shows robot motion in top and 3D views
-
-   ## Demo
-![SCARA Animation](scara_animation.gif)
-
