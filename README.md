@@ -46,3 +46,7 @@ The simulation performs a 4-point pick & place cycle:
 2. IK solves joint angles for each target
 3. PID drives each joint to the target with minimal error
 4. Real-time animation shows robot motion in top and 3D views
+
+   ## Demo
+![SCARA Animation](scara_animation.gif)
+
